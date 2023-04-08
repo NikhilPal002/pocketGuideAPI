@@ -9,14 +9,7 @@ const apiData = require("./userdata.json");
 
 const server = http.createServer((req, res) => {
   if (req.url == "/") {
-    res.end("hello from the home side")
-  }
-  else if (req.url == "/about") {
-    res.end("hello from the aboutus sides");
-  }
-
-  else if (req.url == "/data") {
-    fs.readFile(`${__dirname}/backApi/userdata.json`, "utf-8", (err, data) => {
+    fs.readFile(`${__dirname}/userdata.json`, "utf-8", (err, data) => {
       console.log(data);
       res.end(data)
     })
