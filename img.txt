@@ -1,0 +1,20 @@
+{
+            "title": "",
+            "urlToImage": "",
+            "location": "",
+            "avgstars": "",
+            "open_close": "",
+            "thingsToDo": [
+                {
+                    "urlToImage": "",
+                    "title": ""
+                },
+                {
+                    "urlToImage": "",
+                    "title": ""
+                }
+            ],
+            "bestTimeToVisit": "",
+            "mode": "",
+            "description": ""
+        }
